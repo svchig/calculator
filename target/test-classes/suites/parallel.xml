@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Caculator" verbose="1" parallel="methods" thread-count="4">
+
+    <test name="Negative and positive numbers test">
+        <classes>
+            <class name="com.epam.tat.module4.test.PositiveNegativeTest"></class>
+        </classes>
+    </test>
+</suite>
