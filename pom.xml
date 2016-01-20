@@ -15,8 +15,9 @@
             <version>6.9.9</version>
         </dependency>
         <dependency>
-            <groupId>calculator</groupId>
+            <groupId>4com.epam.tat.module</groupId>
             <artifactId>calculator</artifactId>
+            <version>1.0</version>
             <scope>system</scope>
             <systemPath>${project.basedir}/src/main/resources/calculator-1.0.jar</systemPath>
         </dependency>
